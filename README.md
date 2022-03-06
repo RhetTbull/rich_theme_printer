@@ -6,9 +6,13 @@ I'm using the wonderful [rich](https://github.com/Textualize/rich) python packag
 
 ## Example
 
+[VS Code Theme Github Light](https://github.com/yunlingz/vscode-theme-github-light)
+
 `python3 theme_colors.py vscode_github_theme_light.json`
 
 ![](images/vscode_github_light.png)
+
+[Dark Theme Color Blind](https://github.com/PedroFonsecaDEV/dark-theme-color-blind/tree/master/themes)
 
 `python3 theme_colors.py dark_theme_color_blind.json`
 
