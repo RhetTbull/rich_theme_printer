@@ -1,13 +1,13 @@
 """Print theme color palette from a VS Code theme file."""
 
-import json5
 from typing import List, Tuple
 
+import json5
 import typer
 from PIL import ImageColor
 from rich.console import Console
 from rich.style import Style
-from rich.table import Table
+from rich.table import Table, box
 from rich.text import Text
 
 
@@ -15,7 +15,7 @@ def colors(theme_file: str):
     """Print theme color palette from a VS Code theme file."""
     colors = get_colors_from_json_theme(theme_file)
 
-    table = Table(show_header=False)
+    table = Table(show_header=False, box=box.SQUARE)
     table.add_column("Color")
     table.add_column("Hex")
     table.add_column("RGB")
