@@ -1,0 +1,10 @@
+click==8.0.4
+colorama==0.4.4
+commonmark==0.9.1
+json-spec==0.10.1
+json5==0.9.6
+Pillow==9.0.1
+Pygments==2.11.2
+rich==11.2.0
+six==1.16.0
+typer==0.4.0
